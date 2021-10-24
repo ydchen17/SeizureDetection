@@ -1,3 +1,4 @@
 # Seizure Detection
 
-PCA-based and raw input-based are in seperate files. The FFT part is adapted from https://github.com/leeyunfai/Predicting_Epilepsy/blob/master/EpilepsyFFT.ipynb, where a variety of FFT-based wave analysis is made. Lasso-based feature selection is made to select important features and then models are trained with the selected features. 
+PCA-based and raw data-based are in seperate files. Note that the FFT part is adapted from a previous work accessible at https://github.com/leeyunfai/Predicting_Epilepsy/blob/master/EpilepsyFFT.ipynb and we further use Lasso for feature selection. Also we fix some bugs in the original work and train machine learning classifiers with the features.
+
